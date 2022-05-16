@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CNNIC</title>
+    <link rel="stylesheet" href="contact-cnn.css">
+</head>
+<body>
+    <form action="contact-us.html" method="post">
+        <h1>Get in touch</h1>
+        <p>Whether you want to target engaged audiences, license content or create authority around your brand, contact us via the form below and we'll be happy to help.</p>
+        <p class="form__p--margin">Fields marked with an asterisk are mandatory.</p>
+        <ul>
+            <li class="relative">
+                <label class="form__label" for="location">Your location</label>
+                <select class="form__select form__select--margin" name="location" id="location" required>
+                    <option value="">Type in your location*</option>
+                    <option value='Afghanistan'>Afghanistan</option>
+                    <option value='Albania'>Albania</option>
+                    <option value='Algeria'>Algeria</option>
+                    <option value='American Samoa'>American Samoa</option>
+                    <option value='Andorra'>Andorra</option>
+                    <option value='Angola'>Angola</option>
+                    <option value='Anguilla'>Anguilla</option>
+                </select>
+                <span class="form__select-arrow-mask"></span>
+            </li>
+            <li class="relative">
+                <label class="form__label" for="query">What does your query relate to?</label>
+                <select class="form__select form__select--margin" name="query" id="query" required>
+                    <option value="">What does your query relate to?*</option>
+                    <option value="Advertising">Advertising</option>
+                    <option value="Content sales">Content Sales</option>
+                    <option value="Commercial distribution">Commercial distribution</option>
+                    <option value="PR">PR</option>
+                    <option value="Other">Other</option>
+                </select>
+                <span class="form__select-arrow-mask"></span>
+            </li>
+            <li>
+                <label class="form__label" for="first-name">First name</label>
+                <input class="form__input form__input--margin" type="text" name="first-name" id="first-name" placeholder="First name*" required>
+            </li>
+            <li>
+                <label class="form__label" for="last-name">Last name</label>
+                <input class="form__input form__input--margin" type="text" name="last-name" id="last-name" placeholder="Last name*" required>
+            </li>
+            <li>
+                <input class="form__input form__input-email form__input-placeholder--transparent" type="email" name="email" id="email" placeholder="Email" required>
+                <label class="form__label-email" for="email">Enter email</label>
+            </li>
+            <li>
+                <input class="form__input form__input-placeholder--transparent" type="email" name="confirm-email" id="confirm-email" placeholder="Confirm email" required>
+                <label class="form__label-email" for="confirm-email">Confirm email</label>
+            </li>
+            <li>
+                <label class="form__label" for="company">Company (optional)</label>
+                <input class="form__input form__input--margin form__input--margin--company" type="text" name="company" id="company" placeholder="Company (optional)">
+            </li>
+            <li>
+                <label class="form__label" for="phone">Phone (optional)</label>
+                <input class="form__input form__input--margin" type="text" name="phone" id="phone" placeholder="Phone (optional)">
+            </li>
+            <li>
+                <label class="form__label" for="comments">Comments</label>
+                <textarea class="form__textarea form__textarea--margin" name="comments" id="comments" cols="10" rows="50" placeholder="Comments (max 500 characters)*" required></textarea>
+            </li>
+        </ul>
+        <p>Marketing Permissions</p>
+        <p>
+            Use my email address to send the latest news, opportunities newsletters and marketing promotions from CNN International Commercial and Warner Media 
+            <a href="">affiliates</a>
+            via email.
+        </p>
+        <ul>
+            <li class="relative form__list--flex form__list--margin">
+                <input class="form__input-checkbox" type="checkbox" name="sign-up" id="sign-up">
+                <label class="form__label-checkbox" for="sign-up">Sign me up</label>
+            </li>
+        </ul>
+        <p class="p--small p--small--margin">
+            To withdraw your consent (including any consent you have previously given) and learn more about your rights and how to exercise them, see the
+            <a href="">Privacy Policy</a>.
+        </p>
+        <p>
+            By clicking the “Submit” button, you agree to the 
+            <a href="">Terms and Conditions</a>
+            and confirm that you have read our
+            <a href="">Privacy Policy</a>.
+        </p>
+        <button class="button button--margin">Submit</button>
+    </form>
+    <section></section>
+</body>
+</html>
